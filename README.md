@@ -70,9 +70,9 @@ Flow Navigation (Screen to Screen)
  => settings screen
 
 
-<img src="https://github.com/ikechiafrics/Meta_project/blob/main/Login%20Page.png" width=250><br>
-<img src="https://github.com/ikechiafrics/Meta_project/blob/main/App%20pages.png" width=250><br>
-<img src="https://github.com/ikechiafrics/Meta_project/blob/main/Whole%20app.png" width=250><br>
+<img src="https://github.com/ikechiafrics/Meta_project/blob/main/Login%20Page.png" width=500><br> 
+<img src="https://github.com/ikechiafrics/Meta_project/blob/main/App%20pages.png" width=500><br>
+<img src="https://github.com/ikechiafrics/Meta_project/blob/main/Whole%20app.png" width=500><br>
 
 
 ## Schema 

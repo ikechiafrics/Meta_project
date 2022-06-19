@@ -9,9 +9,9 @@ App Evaluation
 [Evaluation of your app across the following attributes]
 
 - Category:Food & Drinks
-- Habit: User get's rewarded discounts or coupons from time to time as the app is being used.
+- Habit: User get's rewarded discounts or coupons from time to time as the app is frequently being used.
 
-1. User Stories (Required and Optional)
+1. User (Required and Optional)
 
 Required Must-have Stories
 
@@ -23,12 +23,9 @@ Required Must-have Stories
 - User can like/favorite food
 - User can search for their food choice
 - User can filter out their searches.
-
-…
-Optional Nice-to-have Stories
-
 - User can see their profile page with their profile picture
 - User can track their delivery.
+
 …
 2. Screen Archetypes
 
@@ -48,6 +45,7 @@ Optional Nice-to-have Stories
  * See the items liked/favorited
  * add/remove items in the cart
 …
+
 3. Navigation
 
 Tab Navigation (Tab to Screen)
@@ -70,3 +68,25 @@ Flow Navigation (Screen to Screen)
 - Menu Item nav
  => user's profile
  => settings screen
+
+
+<img src="https://github.com/ikechiafrics/Meta_project/blob/main/Login%20Page.png" width=250><br>
+<img src="https://github.com/ikechiafrics/Meta_project/blob/main/App%20pages.png" width=250><br>
+<img src="https://github.com/ikechiafrics/Meta_project/blob/main/Whole%20app.png" width=250><br>
+
+
+## Schema 
+### Models
+#### user
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user (default field) |
+   | username        | String | User's username |
+   | profileImage         | File     | image for user's profile picture |
+   | createdAt     | DateTime | date when the user created account |
+   | updatedAt     | DateTime | date when the user last updated the account |
+   | password     | String | User's Password |
+   | email     | String | User's email |
+   | FirstName    | String   | User's first name |
+   | LastName    | String | User's last name |
